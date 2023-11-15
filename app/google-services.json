@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "597738669171",
+    "project_id": "udemy-paulo-reader",
+    "storage_bucket": "udemy-paulo-reader.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597738669171:android:631a9a9d1855d621a59606",
+        "android_client_info": {
+          "package_name": "com.example.udemy_paulo_reader"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5FoOo0nBS2NyXrrKZ5ETwXqxjEMpfJ2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
