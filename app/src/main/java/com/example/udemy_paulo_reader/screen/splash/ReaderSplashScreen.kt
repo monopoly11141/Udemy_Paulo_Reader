@@ -4,7 +4,12 @@ import android.view.animation.OvershootInterpolator
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.BorderStroke
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -18,6 +23,7 @@ import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.example.udemy_paulo_reader.component.ReaderLogo
 import com.example.udemy_paulo_reader.navigation.ReaderScreen
 import kotlinx.coroutines.delay
 
@@ -60,11 +66,7 @@ fun ReaderSplashScreen(navController: NavController) {
             modifier = Modifier
                 .padding(1.dp)
         ) {
-            Text(
-                text = "A. Reader",
-                style = MaterialTheme.typography.headlineLarge,
-                color = Color.Red.copy(alpha = 0.5f)
-            )
+            ReaderLogo()
 
             Spacer(
                 modifier = Modifier
