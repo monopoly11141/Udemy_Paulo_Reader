@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Udemy_Paulo_Reader</string>
+    <string name="create_account">Please Enter a valid email and password that is at least 6 characters.</string>
 </resources>
